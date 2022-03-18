@@ -1,153 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timaru - Chamber of Commerce, Student Project</title>
-    <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
-    rel="stylesheet" />
-<!-- STYLE SHEETS -->
-<link href="css/normalize.css" rel="stylesheet">
-<!-- phone-default -->
-<link href="css/small.css" rel="stylesheet">
-<!-- enhance-tablet -->
-<link href="css/medium.css" rel="stylesheet">
-<!-- enhance-desktop -->
-<link href="css/large.css" rel="stylesheet">  
-<link rel="shortcut icon" href="favicon.ico">
-<script defer src="js/weatherapi.js"></script>
-<script defer src="js/windchill.js"></script>\
-
-</head>
-<body>
-<!-- HEADER HERE -->
-	<header>
-        <section class="logo">
-            <a href="index.html">
-            <img class="logo" id= "WELT_FColor"
-        src="images\WE love timaru full logo colour.png"
-        alt=" Logo - We Love Timaru fullcolor"></a>
-        </section>
-        <h1>Timaru Chamber of Commerce</h1>
-        <section class="date">
-        <p id="current-date">Monday, 14 March 2022</p>
-        </section>
-
-    <div class="socialapps"><p>We Love Timaru - The Riviera of the South</p>
-    <a href="https://facebook.com" target="blank_" id="fb" class="social"><img src="images/facebook_thumbnail.png" alt="Facebook Logo" class="social"></a>   
-    <a href="https://twitter.com" target="blank_" id="twt" class="social"><img src="images/twitter_blue.jpg" alt="Twitter Logo" class="social"></a>
-</div>
-    <div class="banner" style="display: none;">
-        <div class="banner__content">
-            <div class="banner__text">
-                <strong>Reminder:</strong> 🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-            </div>
-            <button class="banner__close" type="button">
-            <span class="material-icons">
-                close
-            </span>
-            </button>
-        </div>
-    </div>   
-    <div id="banner-content">
-            <p>"🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."</p>
-        </div>
-    <div id="fb-root"></div>      
-<!-- NAVIGATION HERE -->
-    <nav>
-    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>    
-            <li><a href="join.html">Join</a></li>    
-            <li><a href="contact.html">Contact</a></li>    
-        </ul>
-    </nav>
-</header>
-    
-<!-- CONTENT .... Can you make sure to send the link in the requested format? Thanks! -->
-    <main>
-        <section class="info">
-        <div class= "indexgrid floatdiv">
-            <img src="images/Timaru_CBay.jpg" alt="Timaru_CBay image">
-        </div>
-            <div class="weather">
-               <p>The current temperature in Timaru, New Zealand is
-                    <span id="current-temp"></span> &deg;F</p>
-               <figure><img src="" alt="" id="weathericon" />  
-                   <figcaption></figcaption>
-               </figure>
-               <p>The current wind speed is 
-                <span id="windspeed"></span> km/per hr</p>
-                <p>The current wind chill is 
-                    <span id="windchill"></span> &deg;F</p>
-                    <span id="current-date" id="current-year"></span>
-        </div>
-        <div class="indexgrid history">
-        <p>The Chamber is, and always has been, a non-political and independent body working in the best interests 
-            of business in the community and nationwide, if and when the need arises. In earlier days it was customary 
-            for the local post master, station master, and managers of the Harbour Board, Power Board, County Councils, 
-            and various industry associations to be prominent members of the Chamber. In fact as Maurice Smith found 
-            during his long relationship with the Chamber, both as Vice President and then Secretary for many years, 
-            it was customary for the post master or station master to phone and invite him to morning tea from time to 
-            time to keep up with what was happening on the business front.
-        </p>
-    </div>    
-        <div>
-        <img id= "ByTheSea"
-        src="images/Timaru_bytheSea.jpg"
-        alt="Picture poster of Timaru"
-        style="width: 200px; height: 220px">
-        </div>
-        <div class="indexgrid mission">
-        <h1>The Mission of the Timaru Chamber of Commerce</h1>
-        <p>The page name should almost exactly match the menu item. </p>
-        <p>This is the end of main</p>
-        <p>Our mission is to promote and improve the business environment, stimulate a vibrant local 
-           economy and produce a cooperative effort to enhance the overall quality of life in Timaru 
-           to its highest potential.</p>
-        </div>
-        <div>
-            <img id= "WELT_white"
-            src="images\We Love Timaru white-01.png"
-            alt="We Love Timaru white"
-            style="width: 300px; height: 320px"
-          /> 
-        </div>
-        <div class="indexgrid partner">
-            <h2>Description</h2>
-            <p>The Chamber is your business partner providing representation to government and other 
-                organisations, and a voice for business on issues, proposals and regional developments 
-                that impact your business.  Got a business challenge? Helpful and professional support 
-                is just a call away. Phone the South Canterbury Chamber team for practical business 
-                support and solutions, starting for little or no cost.
-            </p>
-            <div>
-                <img id= "WELT_FColor"
-                src="images\WE love timaru full logo colour.png"
-                alt="We Love Timaru fullcolor"
-              /> 
-            </div>
-        </div>
-        </section>
-    </main>
-
-<!-- FOOTER HERE -->   
-<footer>
-    <p>
-        Author: &copy 2022; Jason McLaughlin<br />
-        <a href="mailto:jasnatbyui@gmail.com">jasnatbyui@gmail.com</a>
-        My GitHub site <a href="https://github.com/jasnatbyui">jasnatbyui</a>
-        <script>
-          var date = document.lastModified;
-          document.write("Last Modified: "+date);
-       </script>
-      </p>    </footer> 
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v12.0" nonce="FNUCKME8"></script>   
-<script src="js/scripts.js"></script>
-<script src="js/bom.js"></script>
-</body>
-</html>
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */ /* html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} */ /*----------- apply a natural box layout model to all elements --------------*/
+/* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } */ @charset "UTF-8"; /* not necessary */ * { margin: 0; padding: 0; box-sizing: border-box; } /* phone or baseline views **************************/ :root { --clr-text:
+var(--clr-text); --main-clr-bg: 98e2c6; --ff-title: "Merriweather", serif; --ff-para: "Merriweather", serif; } html { box-sizing: border-box; font-family: var(--ff-para); color: var(--clr-text); font-size: 1.125rem; margin: 0; } /*----------- TYPE --------------*/
+h2 { font-family: var(--ff-title); line-height: 0.8; font-size: 20px; } h1, h2, h3, p { margin: 0; } /*----------- BODY --------------*/ body { margin: 0 auto; max-width: 760px; font-size: 16px; font-family: var(--ff-title); } header, footer { display:
+flex; flex-direction: column; background-color: #bed; align-items: center; justify-content: space-between; padding: 35px; } /*----------- HEADER --------------*/ /* header { background-color: var(--main-clr-bg); display: grid; grid-template-columns: repeat(3,
+1fr); grid-template-rows: auto auto auto; align-items: center; } */ header img { width: 80px; height: auto; } header h1 {} header p { font-size: 10px; /*center*/ } /* .logo { float: left; margin: 0; } */ h1 { font-size: 1.1rem; } h2 { color: #536878;
+} p { font-size: 1rem; } div#banner { position: absolute; top: 0; left: 0; background-color: #c6ebbe; width: 100%; } div#banner-content { width: 800px; margin: 0 auto; padding: 10px; border: 1px solid #000; text-align: center; display: none; } .socialapps
+{ display: flex; justify-content: center; padding: 25px; /* display: grid; grid-column: 2; grid-column-start: 2; grid-column-end: auto; grid-row: 1; grid-row-start: 1; grid-row-end: auto; grid-template-columns: 1fr 1fr; margin-left: 50px; */ } /* .socialapps
+img { width: 25%; } */ /*----------- HEADER - OTHERS --------------*/ /*----------- NAVIGATION --------------*/ nav { background-color: #c6ebbe; text-align: center; justify-content: center; box-shadow: 0 2px 15px gray; } nav ul { list-style-type: none;
+margin: 0; padding: 0; overflow: hidden; /* width: 960px; */ } nav ul li a { display: block; padding: .8rem 2vw; text-decoration: none; color: #333; border-top: 1px solid rgba(0, 0, 0, 0.5); font-size: 0.95rem; background: linear-gradient(90deg, transparent,
+yellow, transparent) top / var(--d, 0) 10px no-repeat; transition: 0.5s; } nav a:hover { --d: 75%; } nav button { flex-direction: row; margin: .2rem 2vw; background-color: transparent; border: none; font-size: 2rem; color: #555; } nav ul li.active a {
+background-color: rgba(0, 0, 0, 0.2); color: #fff; } nav ul li a:hover { background-color: rgba(0, 0, 0, 0.3); } nav ul { display: block; } nav ul.open { display: block; } #hamburgerBtn span:nth-child(1) { display: block; } #hamburgerBtn span:nth-child(2)
+{ display: none; } #hamburgerBtn.open span:nth-child(1) { display: none; } #hamburgerBtn.open span:nth-child(2) { display: block; } /*----------- MAIN --------------*/ main { display: grid; font-size: 0.8rem; } .container { padding: 30px; } .info { grid-row:
+1; grid-template-columns: 1fr; grid-template-rows: repeat(6, auto); } .indexgrid { display: grid; gap: 1.5rem; margin: .5rem; border: 1px solid #bbb; padding: 1rem; } .pic_banner { grid-template-columns: 1fr; justify-content: center; align-items: center;
+} .floatdiv { grid-template-columns: 1fr; border: 3px dashed cyan; width: 400px; height: 100px; font: bolder; } .weather { grid-template-columns: 1fr; top: 25px; right: 50px; background: radial-gradient(#eee, #4567aa); border: 1px solid #000; padding:
+1.5rem; box-shadow: 0 0 30px #333; opacity: 1; } .history { grid-template-columns: 1fr; } .mission { grid-template-columns: 1fr; } .partner { grid-template-columns: 1fr; } #WELT_FColor { float: right; } /*----------- MAIN-JOIN html --------------*/ form
+fieldset { margin: 2rem; border: 1px solid #445ba9; border-radius: 10px; padding: .5rem 2%; } form legend { color: #445ba9; margin: 0 1rem; padding: 0 .5rem; } form label.top, form div { display: block; padding-top: 1rem; color: chocolate; font-size:
+0.8rem; } form label.top input, form label.top select { -webkit-appearance: none; display: block; font-size: 1rem; border: solid 1px #999; border-radius: 4px; padding: .75rem; width: 100%; max-width: 20rem; background-color: rgba(0, 0, 0, 0.1); } form
+label.sbs { display: block; padding: 0.75rem 0; color: #555; } form input.submitBtn { border: none; background-color: #9c2c13; color: white; border-radius: 1rem; padding: .75rem 1.5rem; margin: 0 0 2rem 2%; width: 96%; max-width: 20rem; } form label.top
+input:required { border-left: red solid 8px; } form label.top input:required:valid { border-left: green solid 8px; } #highlight { background-color: rgb(75, 107, 75); } textarea { width: 96%; } #thanks { font-style: italic; text-decoration-color: #4567aa;
+width: 400px; } /*----------- MAIN-DISCOVER html --------------*/ .label { font-family: Arial, sans-serif; font-weight: 700; } #visits { color: navy; font-weight: bolder; font-size: larger; } .today { color: tomato; } .grid-container { flex: 50%; display:
+grid; grid-template-columns: auto auto; grid-template-rows: auto auto auto auto auto auto auto auto auto; } .grid-container h1 picture p { float: right; } .lazyload_img { grid-row: auto; width: 400px; padding: 50px; margin-bottom: 75px; } .discover_details
+{ flex: 50%; /* grid-row: auto; */ width: 400px; height: 300px; padding: 50px; margin-bottom: 75px; font-size: 1em; font-family: "Sansita", Ubuntu, sans-serif; } #TxtBx400_250 { box-sizing: 400 250; height: 250; width: 400; font-size: 2em; } #TxtBx400_300
+{ box-sizing: 400 250; height: 250; width: 400; font-size: 2em; } #TxtBx400_400 { box-sizing: 400 250; height: 250; width: 400; font-size: 2em; } /*----------- MAIN-Directory --------------*/ .directory { border: #000 10px; display: grid; gap: 1.5rem;
+grid-template-columns: 35% 35%; } h2 { margin-bottom: 3px; margin-top: 8px; } .businessname { color: rgb(50, 67, 224); } .address { color: rgb(79, 94, 221); font-size: smaller; } .phonenumber { color: rgb(119, 130, 226); font-size: smaller; } .website
+{ color: rgb(8, 1, 14); font-size: small; } .email { color: rgb(5, 1, 8); font-size: small; } .main-dir { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1/5; margin: 1rem; position: relative; border-top: 5px solid #555; text-align:
+center; background-color: #c6ebbe; } .busdirect { color: #445ba9; border-bottom: 1px solid #eee; text-shadow: 0 0 15px #999; width: 100%; justify-content: center; margin-top: 3px; margin-bottom: 3px; } .directory section { margin: 0.25rem; padding: 0.35rem;
+background-color: #eee; border: 1px solid #bbb; align-items: center; } section img { width: auto; max-width: 325px; box-shadow: 0 0 30px #777; height: 200px; border: 1px solid #333; height: auto; } section.cards { grid-column: 1 / 4; grid-row: 2 / 5;
+display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px; row-gap: 20px; column-gap: 20px; margin: 20px 10px; margin-top: 20px; margin-right: 10px; margin-bottom: 20px; margin-left: 10px; text-align: center; } /*-----------
+FOOTER --------------*/ footer { height: 2rem; }
